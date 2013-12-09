@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>JIIT Webkiosk</title>
+		<script type='text/javascript' src='options.js'></script>
+		<style>
+		.myButton {
+			width: 100%;
+			background-color:#44c767;
+			-moz-border-radius:28px;
+			-webkit-border-radius:28px;
+			border-radius:28px;
+			border:1px solid #18ab29;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:arial;
+			font-size:17px;
+			padding:16px 31px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #2f6627;
+		}
+		.myButton:hover {
+			background-color:#5cbf2a;
+		}
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+
+
+		</style>
+	</head>
+	<body>
+		<h4>JIIT Webkiosk</h4>
+	<div id="home">
+		<div id="homemessage" style="color:red;"> </div>
+		
+		<input type='button' id='attendance' value='View Attendance' class="myButton"/>
+		<input type='button' id='webkiosk' value='Visit Webkiosk' class="myButton"/>
+		<input type='button' id='cgpa' value='CGPA/SGPA' class="myButton"/>
+		<input type='button' id='marks' value='View Marks' class="myButton"/>
+		<input type='button' id='loginshow' value='Set Your Credentials' class="myButton"/>
+	</div>
+	
+	<div id="login" style="display:none">
+		Enrollment Number: <input type='text' name='username' id='user' class="input_text"><br>
+		Password: <input type='password' name='password' id='pass'>
+		<br />
+		<div id="loginmessage" style="color:red;">  </div>
+		 <input type='button' id='login' value='Save Details' class="myButton" />
+		 
+		 <form id="login">
+</form>
+	</div>
+</body>
+</html>
