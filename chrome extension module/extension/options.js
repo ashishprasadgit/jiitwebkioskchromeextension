@@ -18,7 +18,7 @@ if (localStorage.getItem('user') != null){
 
 if(user.length>4 && pass.length>2)
 {var win = window.open();
-win.document.write("<form action='http://webkiosk.azurewebsites.net/studentlogin.php' method='post'> <input type='text' name='user' id='user' value='"+user+"' hidden><br><input type='password' name='pass' id='pass' value='"+pass+"' hidden></form> <script> var form =document.getElementsByTagName('form')[0]; form.submit(); </script>");
+win.document.write("<form action='http://jiitsimplified.com/webkiosk/studentlogin.php' method='post'> <input type='text' name='user' id='user' value='"+user+"' hidden><br><input type='password' name='pass' id='pass' value='"+pass+"' hidden></form> <script> var form =document.getElementsByTagName('form')[0]; form.submit(); </script>");
 }
 
 }else 
@@ -32,7 +32,7 @@ if (localStorage.getItem('user') != null){
 
 if(user.length>4 && pass.length>2)
 {var win = window.open();
-win.document.write("<form action='https://webkiosk.azurewebsites.net/attendance.php' method='post'> <input type='text' name='user' id='user' value='"+user+"' hidden><br><input type='password' name='pass' id='pass' value='"+pass+"' hidden></form> <script> var form =document.getElementsByTagName('form')[0]; form.submit(); </script>");
+win.document.write("<form action='http://jiitsimplified.com/webkiosk/attendance.php' method='post'> <input type='text' name='user' id='user' value='"+user+"' hidden><br><input type='password' name='pass' id='pass' value='"+pass+"' hidden></form> <script> var form =document.getElementsByTagName('form')[0]; form.submit(); </script>");
 }
 }else 
 document.getElementById("homemessage").innerText="Please Update Your Credentials First";
@@ -58,7 +58,7 @@ if (localStorage.getItem('user') != null){
 
 if(user.length>4 && pass.length>2)
 {var win = window.open();
-win.document.write("<form action='http://webkiosk.azurewebsites.net/marks.php' method='post'> <input type='text' name='user' id='user' value='"+user+"' hidden><br><input type='password' name='pass' id='pass' value='"+pass+"' hidden></form> <script> var form =document.getElementsByTagName('form')[0]; form.submit(); </script>");
+win.document.write("<form action='http://jiitsimplified.com/webkiosk/marks.php' method='post'> <input type='text' name='user' id='user' value='"+user+"' hidden><br><input type='password' name='pass' id='pass' value='"+pass+"' hidden></form> <script> var form =document.getElementsByTagName('form')[0]; form.submit(); </script>");
 }
 }else 
 document.getElementById("homemessage").innerText="Please Update Your Credentials First";
